@@ -25,6 +25,8 @@ def cabecalho(subtitulo):
     st.title("Desmatamento e Preservação Ambiental no Brasil")
     st.caption("G1 • Linguagem de Programação — Análise e Visualização de Dados com Python")
     st.markdown("**Autor:** Marcelo Barbosa de Oliveira Junior")
+    st.markdown("**Professor:** Alexandre Louzada")
+    st.markdown("**Matéria:** Linguagens de Programação")
     st.write(subtitulo)
     st.info(NOTA)
     if df.empty:
