@@ -53,12 +53,12 @@ A base é simulada e inclui combinações geográficas não representativas. Som
 1. Envie os arquivos para o GitHub mantendo o CSV, notebook e imagens no repositório.
 2. GitHub Pages: em **Settings → Pages**, escolha **Deploy from a branch**, branch `main` e pasta `/ (root)`. A apresentação está em `index.html`, na raiz.
 3. Streamlit Community Cloud: entre com GitHub, crie o app, selecione este repositório, branch `main`, arquivo `app.py` e Python 3.12. As dependências vêm de `requirements.txt`.
-4. Depois do deploy, adicione o URL verdadeiro do dashboard no campo “Dashboard publicado” de `index.html` e neste README. Não há URL fictício no projeto.
+4. O link do dashboard foi adicionado à apresentação e aos links de entrega abaixo.
 
 ### Links de entrega
 - Repositório atual: https://github.com/marcelobarbosa-dev/avaliacaog1
-- GitHub Pages: **aguardando ativação**. Endereço esperado, após ativação: https://marcelobarbosa-dev.github.io/avaliacaog1/
-- Streamlit: **aguardando deploy**.
+- GitHub Pages: https://marcelobarbosa-dev.github.io/avaliacaog1/
+- Streamlit: https://avaliacaog1-5wn5vknc8mnh352pp9oqci.streamlit.app/
 - Notebook: `notebooks/analise_desmatamento.ipynb`.
 - Dashboard: `app.py`, com apoio de `analise.py`.
 - Base: `dados/simulacao_desmatamento_brasil.csv`.
